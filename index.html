@@ -52,10 +52,30 @@
         </section>
       <section class="col-2"></section>
       </section>
+
+      <section class="modal-wrapper" id="modal">
+        <div id="content-modal" class="modal__modal-content">
+          <p class="modal__modal-title"></p>
+          <form action="" class="modal__modal-form" title="User data">
+            <figure class="form__title">Inscreva-se! 🚀</figure>
+            <label for="user-name"></label>
+            <input type="text" class="form__input-name" id="user-name" placeholder="Nome">
+            <label for="user-email"></label>
+            <input type="email" class="form__input-email" id="user-email" placeholder="Email"></input-email>
+            <span id="emailError" role="alert" class="form__notification" aria-hidden="true"> 
+              Por favor, insira dados válidos.
+            </span>
+            <button id="submit" type="button" class="form__btn-subcribe" >Enviar</button>
+          </form>
+        
+        </div>
+      </section>
     </main>
         
     <footer class="footer"></footer>
   </section>
-  <script src="./assets/script/main.js"></script>
+  <script src="./assets/script/modal.js"></script>
+  <script src="./assets/script/clock.js"></script>
+  <script src="./assets/script/getUserDate.js"></script>
 </body>
 </html>
