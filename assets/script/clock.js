@@ -4,7 +4,7 @@ const fieldHours = tb.children[2];
 const fieldMin = tb.children[4];
 const fieldSec = tb.children[6];
 
-const opening = new Date("Sep 20, 2022 16:00").getTime();
+const opening = new Date("Dec 11, 2022 12:00").getTime();
 
 function countdown() {
 

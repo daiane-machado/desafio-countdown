@@ -3,7 +3,7 @@ const btSubscribe = document.getElementById("bt-subscribe");
 
 btSubscribe.onclick = function() {
   modal.style.display = "flex";
-}
+} 
 
 window.onclick = function(event) {
   if(event.target == modal) {
