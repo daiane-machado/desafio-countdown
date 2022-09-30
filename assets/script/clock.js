@@ -26,7 +26,7 @@ function countdown() {
     fieldDay.innerHTML = days < 10 ?`0${days}` : days;
     fieldHours.innerHTML = hours < 10 ? `0${hours}` : hours;
     fieldMin.innerHTML = minutes < 10 ? `0${minutes}` : minutes;
-    fieldSec.innerHTML = seconds < 10 ? `0${seconds}` : second;
+    fieldSec.innerHTML = seconds < 10 ? `0${seconds}` : seconds;
     return true;
   }   
 }
