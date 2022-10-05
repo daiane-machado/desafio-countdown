@@ -32,11 +32,12 @@ html {
   margin: 1.5rem 0rem;
   }
 
-.col-1 {
-  width: 30.87rem;
-
-}
-
+  
+  .col-1 {
+    width: 30.87rem;
+    
+  }
+  
 .col-1__title {
   color: var(--purple);
   font-family: 'Poppins';
@@ -186,7 +187,33 @@ button:hover {
 }
 
 
+@media screen and (max-width: 678px) {
+  
+  .content {
+    display: block;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .col-1 {
+    width: 100%;
+    margin: auto auto 2rem;
+  }
 
+  table {
+    width: 95%;
+  }
+  
+  td {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  
+  .col-2 {
+    height: 18rem;
+    background-size: contain;
+    width: 100%;
+  }
+}
 
 
 
